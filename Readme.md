@@ -8,3 +8,5 @@ If you want to suppress it, the command "Log LogAkAudio None" will get rid of it
 In case you want it gone forevermore: add a [Core.Log] section into DefaultEngine.ini, with a line "LogAkAudio=None" in there.
 
 BaseEngine.ini has an example, line 957
+
+![ScottAvatar](https://media.retroachievements.org/UserPic/Scott.png)
