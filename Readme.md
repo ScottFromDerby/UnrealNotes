@@ -14,3 +14,16 @@ BaseEngine.ini has an example, line 957
 
 ![ScottAvatar](https://media.retroachievements.org/UserPic/Scott.png)
 ![Default](https://media.retroachievements.org/Images/000001.png)
+
+
+## C++ General stuff
+
+### Alternative Function Syntax
+
+auto music_create(int seed)->std::shared_ptr<music_t>;
+
+is equal to
+
+std::shared_ptr<music_t> music_create(int seed);
+
+https://blog.petrzemek.net/2017/01/17/pros-and-cons-of-alternative-function-syntax-in-cpp/
