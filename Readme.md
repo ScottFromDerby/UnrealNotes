@@ -20,9 +20,20 @@ BaseEngine.ini has an example, line 957
 
 Widgets are W_ . 
 
-See: W_RespawnTimer, W_ShooterHUDLayout, 
+See: **W_RespawnTimer**, **W_ShooterHUDLayout**, 
 
-LAS_ShooterGame_StandardHUD = Lyra Experience Action Set = Data Asset
+**LAS_ShooterGame_StandardHUD** = Lyra Experience Action Set = Data Asset
+
+**W_Healthbar** is contained within **W_ShooterHUDLayout**.
+
+**W_ShooterHUDLayout**. What caused this to become invoked? Probably **LAS_ShooterGame_StandardHUD**.
+
+How did **LAS_ShooterGame_StandardHUD** become invoked?
+
+Reference by a few others and **B_TestInventoryExperience**.
+
+Referenced by **L_InventoryTestMap**
+
 
 
 
