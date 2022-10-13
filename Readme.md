@@ -10,3 +10,4 @@ In case you want it gone forevermore: add a [Core.Log] section into DefaultEngin
 BaseEngine.ini has an example, line 957
 
 ![ScottAvatar](https://media.retroachievements.org/UserPic/Scott.png)
+![Default](https://media.retroachievements.org/Images/000001.png)
