@@ -16,6 +16,20 @@ BaseEngine.ini has an example, line 957
 ![Default](https://media.retroachievements.org/Images/000001.png)
 
 
+## Lyra UI stuff
+
+Widgets are W_ . 
+
+See: W_RespawnTimer, W_ShooterHUDLayout, 
+
+LAS_ShooterGame_StandardHUD = Lyra Experience Action Set = Data Asset
+
+
+
+* Lyra makes heavy use of GAS
+* Lyra is ~70/30 code
+
+
 ## C++ General stuff
 
 ### Alternative Function Syntax
