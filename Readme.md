@@ -26,9 +26,9 @@ https://docs.unrealengine.com/4.26/en-US/InteractiveExperiences/UMG/HowTo/Creati
 
 https://docs.unrealengine.com/5.0/en-US/abilities-in-lyra-in-unreal-engine/
 
-Widgets are W_ . 
+GAS: https://github.com/tranek/GASDocumentation/blob/master/README.md
 
-See: **W_RespawnTimer**, **W_ShooterHUDLayout**, 
+Widgets are W_ . See: **W_RespawnTimer**, **W_ShooterHUDLayout**, 
 
 **LAS_ShooterGame_StandardHUD** = Lyra Experience Action Set = Data Asset
 
