@@ -17,41 +17,28 @@ BaseEngine.ini has an example, line 957
 
 
 ## Basic Unreal UI
-
 https://docs.unrealengine.com/4.26/en-US/InteractiveExperiences/UMG/HowTo/CreatingWidgets/
 
 
 
 ## Lyra UI stuff
-
 * Lyra makes heavy use of GAS
 * Lyra is ~90/10 code/bp
 
 ### GAS in Lyra
-
-https://docs.unrealengine.com/5.0/en-US/abilities-in-lyra-in-unreal-engine/
-
-GAS: https://github.com/tranek/GASDocumentation/blob/master/README.md
+* https://docs.unrealengine.com/5.0/en-US/abilities-in-lyra-in-unreal-engine/
+* GASDocumentation: https://github.com/tranek/GASDocumentation/blob/master/README.md
 
 ### How Lyra implements it's UI
-Widgets are W_ . See: **W_RespawnTimer**, **W_ShooterHUDLayout**, 
-
-Widgets are being added as a "GameFeatureAction", part of LyraExperienceActionSet. See GameFeatureAction_AddWidget.cpp/h
-
-**LAS_ShooterGame_StandardHUD** = Lyra Experience Action Set = Data Asset
-
-**W_Healthbar** is contained within **W_ShooterHUDLayout**.
-
-**W_ShooterHUDLayout**. What caused this to become invoked? Probably **LAS_ShooterGame_StandardHUD**.
-
-How did **LAS_ShooterGame_StandardHUD** become invoked?
-
-Reference by a few others and **B_TestInventoryExperience**... referenced by **L_InventoryTestMap**
-
+* Widgets are W_ . See: **W_RespawnTimer**, **W_ShooterHUDLayout**, 
+* Widgets are being added as a "GameFeatureAction", part of LyraExperienceActionSet. See GameFeatureAction_AddWidget.cpp/h
+* **LAS_ShooterGame_StandardHUD** = Lyra Experience Action Set = Data Asset
+* **W_Healthbar** is contained within **W_ShooterHUDLayout**.
+* **W_ShooterHUDLayout**. What caused this to become invoked? Probably **LAS_ShooterGame_StandardHUD**.
+* How did **LAS_ShooterGame_StandardHUD** become invoked? Referencde by a few others and **B_TestInventoryExperience**... referenced by **L_InventoryTestMap**
 
 
 ## C++ General stuff
-
 ### Alternative Function Syntax
 ```
 auto music_create(int seed)->std::shared_ptr<music_t>;
