@@ -24,9 +24,16 @@ https://docs.unrealengine.com/4.26/en-US/InteractiveExperiences/UMG/HowTo/Creati
 
 ## Lyra UI stuff
 
+* Lyra makes heavy use of GAS
+* Lyra is ~90/10 code/bp
+
+### GAS in Lyra
+
 https://docs.unrealengine.com/5.0/en-US/abilities-in-lyra-in-unreal-engine/
 
 GAS: https://github.com/tranek/GASDocumentation/blob/master/README.md
+
+### How Lyra implements it's UI
 
 Widgets are W_ . See: **W_RespawnTimer**, **W_ShooterHUDLayout**, 
 
@@ -40,13 +47,8 @@ How did **LAS_ShooterGame_StandardHUD** become invoked?
 
 Reference by a few others and **B_TestInventoryExperience**... referenced by **L_InventoryTestMap**
 
-
 Widgets are being added as a "GameFeatureAction", part of LyraExperienceActionSet. See GameFeatureAction_AddWidget.cpp/h
 
-
-
-* Lyra makes heavy use of GAS
-* Lyra is ~90/10 code/bp
 
 
 ## C++ General stuff
