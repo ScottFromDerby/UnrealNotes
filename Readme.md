@@ -38,6 +38,11 @@ https://docs.unrealengine.com/4.26/en-US/InteractiveExperiences/UMG/HowTo/Creati
 * How did **LAS_ShooterGame_StandardHUD** become invoked? Referencde by a few others and **B_TestInventoryExperience**... referenced by **L_InventoryTestMap**
 
 
+### Lyra Sample Game Settings
+* https://docs.unrealengine.com/5.0/en-US/lyra-sample-game-settings-in-unreal-engine/
+* Lyra features a GameSettings plugin that is used to simplify the process of creating a User Interface (UI) and its underlying data. 
+
+
 ## C++ General stuff
 ### Alternative Function Syntax
 ```
