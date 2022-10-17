@@ -3,7 +3,8 @@
 Here is a public collection of my Unreal 4/5 notes.
 
 ## Links
-[ari.games](https://flassari.notion.site/Ari-s-Unreal-Engine-Notes-1a75e43f4014464984d4fae0617e5cef)
+* [ari.games](https://flassari.notion.site/Ari-s-Unreal-Engine-Notes-1a75e43f4014464984d4fae0617e5cef)
+* https://flassari.notion.site/UE-Tips-Best-Practices-3ff4c3297b414a66886c969ff741c5ba
 
 ## LogAkAudio spam
 If you want to suppress it, the command "Log LogAkAudio None" will get rid of it for a session (and everything else from the LogAkAudio channel)
